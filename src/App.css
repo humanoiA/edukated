@@ -163,3 +163,128 @@
   padding: 0rem !important;
   margin: 0rem !important;
 }
+#searchbutton{
+  background-color: #e55f3d;
+  border-radius: 10px;
+}
+#marginsearch{
+  margin-top: 10%;
+}
+#searchbar{
+  margin-left: -9%;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+#searchwidth{
+  width: 150%;
+}
+#searchtext{
+  text-align: left;
+  margin-left: -9%;
+  margin-top: -6%;
+}
+#storytext{
+  text-align: left;
+  margin-top: 5%;
+  margin-left:2% ;
+}
+#cardtext{
+  color: white;
+}
+#cardimage{
+  display: block;
+  object-fit: cover;
+  max-width: 40rem;
+  max-height: 30rem;
+  width: auto;
+  height: auto;
+}
+#footercard{
+  width: 20rem;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 5%;
+  margin-top: 3%;
+}
+#footercardtext{
+  text-align: left;
+  margin-top: 2%;
+  margin-left:-4% ;
+}
+#smallcardtext{
+background-color: #0a3e66;
+opacity: 90%;
+border-radius: 5px;
+margin-top:10% ;
+}
+#smallcarduser{
+  color: white;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 12%;
+  }
+#smallcardtime{
+  background-color: #e55f3d;
+  border-radius: 5px;
+  max-width: 45%;
+  float: right;
+}
+#smallcardusername{
+  color: white;
+  text-align: left;
+}
+#smallcard{
+width: 9rem;
+height: 11rem;
+overflow: hidden;
+border-radius: 5%;
+font-size: 0.7em;
+}
+#horizontalcardtext{
+  background-color: #0a3e66;
+opacity: 90%;
+border-radius: 5px;
+margin-top:7% ;
+}
+#horizontalcarduser{
+  color: white;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 12%;
+}
+#horizontalcard{
+  width: 20rem;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 5%;
+  margin-left: 6%;
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+#usercardtext{
+  color: gray;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 20%;
+}
+#usercardname{
+  color:darkslategray;
+  text-align: left;
+}
+#usercard{
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  margin-top: 5%;
+  width: 85%;
+}
+#verticalcardtext{
+  background-color: #0a3e66;
+  opacity: 90%;
+  border-radius: 5px;
+  margin-top: 90%;
+}
+#verticalcardtime{
+  background-color: #e55f3d;
+  border-radius: 5px;
+  max-width: 45%;
+}

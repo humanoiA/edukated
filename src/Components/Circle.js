@@ -4,7 +4,7 @@ export default function Circle()
 {
     return(
     <>
-        <div style={{textAlign:"left",marginTop:"5%",marginLeft:'2%'}}><strong>Streaming</strong> Now</div>
+        <div id="storytext"><strong>Streaming</strong> Now</div>
         <Container id="topbar">
         <Row>
             <Col sm={1.1}>
@@ -40,9 +40,9 @@ export default function Circle()
 </div>
 </Col>
 <Col sm={4} id="search" >
-<div style={{textAlign:"left",marginLeft:'-9%',marginTop:'-6%'}}><strong>Advanced</strong> Search</div>
+<div id="searchtext"><strong>Advanced</strong> Search</div>
 <Row>
-<Col style={{marginTop:"10%",marginLeft:'-9%',borderRadius:10+'px'}}><Form.Control style={{width:'150%'}} type="text" placeholder="Start writing something" readOnly/></Col><Col style={{marginTop:"10%"}}><Button style={{backgroundColor:'#e55f3d',borderRadius:10+'px'}}>Find
+<Col id="searchbar" ><Form.Control id="searchwidth" type="text" placeholder="Start writing something" readOnly/></Col><Col id="marginsearch"><Button id="searchbutton">Find
     </Button>  </Col>
     </Row>
 </Col>

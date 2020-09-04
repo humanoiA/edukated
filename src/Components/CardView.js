@@ -27,43 +27,43 @@ export default function Cardview(){
         <Row style={{maxWidth:'100%'}}>
           <Col sm={3}>
           <Row>
-        <Card style={cardStyle}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+          <Card style={cardStyle}>
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <p style={{color:'white',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'white',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
-    <div className="card text-white" style={{backgroundColor:"#e55f3d",borderRadius:5+'px',maxWidth:"45%"}}>82 min</div> 
-    <div className="card text-white" style={{backgroundColor:"#0a3e66",opacity:"90%",borderRadius:5+'px',marginTop:'90%'}} >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+    <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='horizontalcarduser'>@lanamara</p>
+    <div className="card text-white" id='verticalcardtime'>82 min</div> 
+    <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
   </Card.Body>
   </Card.ImgOverlay>
 </Card>
 </Row>
 <div style={{textAlign:"left",marginTop:'5%',marginLeft:'2%'}}><strong>Top</strong> Tutors</div>
 <Row>
-  <Card style={{backgroundColor:'#e2e2e2',borderRadius:10+'px',marginTop:'5%',width:'85%'}}>
+<Card id='usercard'>
     <Card.Body>
-    <p style={{color:'darkslategray',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'gray',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
+    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='usercardtext'>@lanamara</p>
     </Card.Body>
   </Card>
-  <Card style={{backgroundColor:'#e2e2e2',borderRadius:10+'px',marginTop:'5%',width:'85%'}}>
+  <Card id='usercard'>
     <Card.Body>
-    <p style={{color:'darkslategray',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'gray',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
+    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='usercardtext'>@lanamara</p>
     </Card.Body>
   </Card>
   </Row>
 </Col>
 <Col sm={3}><Row>
 <Card style={cardStyle}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <p style={{color:'white',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'white',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
-    <div className="card text-white" style={{backgroundColor:"#e55f3d",borderRadius:5+'px',maxWidth:"45%"}}>82 min</div> 
-    <div className="card text-white" style={{backgroundColor:"#0a3e66",opacity:"90%",borderRadius:5+'px',marginTop:'90%'}} >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+    <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='horizontalcarduser'>@lanamara</p>
+    <div className="card text-white" id='verticalcardtime'>82 min</div> 
+    <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
   </Card.Body>
   </Card.ImgOverlay>
 </Card>
@@ -71,67 +71,67 @@ export default function Cardview(){
 <div style={{marginTop:'5%',marginLeft:'2%',float:'right'}}><FontAwesomeIcon icon={faEllipsisH}></FontAwesomeIcon></div>
 </Row>
 <Row>
-  <Card style={{backgroundColor:'#e2e2e2',borderRadius:10+'px',marginTop:'5%',width:'85%'}}>
+<Card id='usercard'>
     <Card.Body>
-    <p style={{color:'darkslategray',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'gray',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
+    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='usercardtext'>@lanamara</p>
     </Card.Body>
   </Card>
-  <Card style={{backgroundColor:'#e2e2e2',borderRadius:10+'px',marginTop:'5%',width:'85%'}}>
+  <Card id='usercard'>
     <Card.Body>
-    <p style={{color:'darkslategray',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina</p>
-  <p style={{color:'gray',textAlign:"left",marginTop:"-10%",marginLeft:"20%"}}>@lanamara</p>
+    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+  <p id='usercardtext'>@lanamara</p>
     </Card.Body>
   </Card>
   </Row>
 </Col>
 <Col sm={5}>
 <Row>
-        <Card id='aligned' style={{width:'20rem',height:'12rem',overflow:'hidden',borderRadius: 5+'%',marginLeft:"6%"}}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+        <Card id='horizontalcard' >
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-  <p style={{color:'white',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" style={{backgroundColor:"#e55f3d",borderRadius:5+'px',maxWidth:"45%",float:"right"}}>82 min</span> </p>
-  <p style={{color:'white',textAlign:"left",marginTop:"-10%",marginLeft:"12%"}}>@lanamara</p>
-    <div className="card text-white" style={{backgroundColor:"#0a3e66",opacity:"90%",borderRadius:5+'px',marginTop:'7%'}} >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='smallcardtime'>82 min</span> </p>
+  <p id='horizontalcarduser'>@lanamara</p>
+    <div className="card text-white" id='horizontalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
   </Card.Body>
   </Card.ImgOverlay>
 </Card>
 </Row>
 <Row style={{marginTop:"5%"}}>
 <Col id='aligned' sm={5}>
-<Card  style={{width:'9rem',height:'11rem',overflow:'hidden',borderRadius: 5+'%',fontSize:"0.7em"}}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+<Card id='smallcard'>
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
-  <p style={{color:'white',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana<span className="card text-white" style={{backgroundColor:"#e55f3d",borderRadius:5+'px',maxWidth:"45%",float:"right"}}>82 min</span> </p>
-  <p style={{color:'white',textAlign:"left",marginTop:"-10%",marginLeft:"12%"}}>@lanamara</p>
-    <div className="card text-white" style={{backgroundColor:"#0a3e66",opacity:"90%",borderRadius:5+'px',marginTop:'10%'}} >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>  
+  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana<span className="card text-white" id='smallcardtime'>82 min</span> </p>
+  <p id='smallcarduser'>@lanamara</p>
+    <div className="card text-white" id='smallcardtext' >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>  
   </Card.Body>
   </Card.ImgOverlay>
 </Card></Col>
 <Col id='aligned' sm={5}>
-<Card style={{width:'9rem',height:'11rem',overflow:'hidden',borderRadius: 5+'%',fontSize:"0.7em"}}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+<Card id='smallcard'>
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
-  <p style={{color:'white',textAlign:"left"}}><img src={pic} height="20"/>{"   "}Lana<span className="card text-white" style={{backgroundColor:"#e55f3d",borderRadius:5+'px',maxWidth:"45%",float:"right"}}>82 min</span> </p>
-  <p style={{color:'white',textAlign:"left",marginTop:"-10%",marginLeft:"12%"}}>@lanamara</p>
-    <div className="card text-white" style={{backgroundColor:"#0a3e66",opacity:"90%",borderRadius:5+'px',marginTop:'10%'}} >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>  
+  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana<span className="card text-white" id='smallcardtime'>82 min</span> </p>
+  <p id='smallcarduser'>@lanamara</p>
+    <div className="card text-white" id='smallcardtext' >Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>  
   </Card.Body>
   </Card.ImgOverlay>
 </Card></Col>
 </Row>
 
-<div style={{textAlign:"left",marginTop:'2%',marginLeft:'2%'}}><strong>Special Offers</strong> </div>
+<div id='footercardtext'><strong>Special Offers</strong> </div>
   
 <Row>
-<Card id="paddingNone" style={{width:'20rem',height:'12rem',overflow:'hidden',borderRadius: 5+'%',marginTop:"3%"}}>
-  <Card.Img variant="top" src={require("./72.jpg")} style={{display:'block',objectFit:'cover', maxWidth:'40rem',maxHeight:'30rem', width:'auto', height:'auto'}}/>
+<Card id='footercard'>
+  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <Card.Title style={{color:'white'}}>Card Title</Card.Title>
-    <Card.Text style={{color:'white'}}>
+    <Card.Title id='cardtext'>Card Title</Card.Title>
+    <Card.Text id='cardtext'>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text>

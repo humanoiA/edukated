@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Container id='con'>
         <Row>
-          <Col sm={2}>
+          <Col sm={2} id='sidebar'>
             <SideBar />
           </Col>
           <Col sm={10}>

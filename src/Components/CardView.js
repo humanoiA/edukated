@@ -50,7 +50,7 @@ export default function Cardview() {
         </Col>
         <Col sm={3}><Row>
           <Card id='cardstyle'>
-            <Card.Img variant="top" src={require("./images/11.jpg")} id='cardimage' />
+            <Card.Img variant="top" src={require("./images/juniperphoton-6KvcUtuk9WE-unsplash.jpg")} id='cardimage' />
             <Card.ImgOverlay>
               <Card.Body>
                 <p id='smallcardusername'><img alt="" src={pic} height="20" />{"   "}Lana Marandina</p>
@@ -80,10 +80,10 @@ export default function Cardview() {
             </Card>
           </Row>
         </Col>
-        <Col sm={5}>
+        <Col sm={5} id='rightcard'>
           <Row >
             <Card id='horizontalcard' >
-              <Card.Img variant="top" src={require("./images/11.jpg")} id='cardimage' />
+              <Card.Img variant="top" src={require("./images/juniperphoton-6KvcUtuk9WE-unsplash.jpg")} id='cardimage' />
               <Card.ImgOverlay>
                 <Card.Body>
                   <p id='smallcardusername'><img alt="" src={pic} height="20" />{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>

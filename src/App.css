@@ -106,6 +106,7 @@
   #search{
     margin-left: 30px;
     margin-top: -0.4%;
+    padding-left: 30px;
   }
   /*Vertical Tabs*/
 .mdl-tabs__panel {
@@ -458,4 +459,7 @@ font-size: 0.8rem;
     background-color: white;
     border: none;
     margin-left: -56%;
+  }
+  #rightcard{
+    padding-left: 30px;
   }

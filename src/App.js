@@ -11,15 +11,15 @@ function App() {
     <div className="App">
       <Container id='con'>
         <Row>
-     <Col sm={2}>
-      <SideBar/>
-      </Col>
-      <Col sm={10}>
-        <Row>
-      <CardView />
-      </Row>
-      </Col>
-      </Row>
+          <Col sm={2}>
+            <SideBar />
+          </Col>
+          <Col sm={10}>
+            <Row>
+              <CardView />
+            </Row>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

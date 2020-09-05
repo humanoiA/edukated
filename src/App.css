@@ -105,6 +105,7 @@
   }
   #search{
     margin-left: 30px;
+    margin-top: -0.4%;
   }
   /*Vertical Tabs*/
 .mdl-tabs__panel {
@@ -190,6 +191,7 @@
   text-align: left;
   margin-top: 5.2%;
   margin-left:2% ;
+  margin-bottom: 0%;
 }
 #cardtext{
   color: white;
@@ -244,7 +246,7 @@ margin-top:70% ;
   text-align: left;
 }
 #smallcard{
-width: 9rem;
+width: 9.5rem;
 height: 11rem;
 overflow: hidden;
 border-radius: 5%;

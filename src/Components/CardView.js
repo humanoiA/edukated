@@ -54,7 +54,7 @@ export default function Cardview(){
 </Col>
 <Col sm={3}><Row>
 <Card id='cardstyle'>
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
     <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
@@ -87,7 +87,7 @@ export default function Cardview(){
 <Col sm={5}>
 <Row >
         <Card id='horizontalcard' >
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
   <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>

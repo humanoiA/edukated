@@ -228,7 +228,7 @@ margin-top:70% ;
   color: white;
   text-align: left;
   margin-top: -20%;
-  margin-left: 26%;
+  margin-left: 23%;
   }
 #smallcardtime{
   background-color: #e55f3d;
@@ -267,6 +267,12 @@ margin-top:7% ;
   color: white;
   text-align: left;
   margin-top: -10%;
+  margin-left: 20%;
+}
+#verticalcarduser{
+  color: white;
+  text-align: left;
+  margin-top: -8%;
   margin-left: 12%;
 }
 #horizontalcard{
@@ -429,8 +435,15 @@ font-size: 0.8rem;
     margin-top: 10%;
     margin-left: 18%;
   }
-  #con{
-    margin-left: 19%;
+  @media screen and (max-width: 1699px) and (min-width: 1200px) {
+    #con{
+      margin-left: 19%;
+    }
+  }
+  @media screen and (max-width: 2000px) and (min-width: 1700px) {
+    #con{
+      margin-left: 25%;
+    }
   }
   #offerdot{
     float: right;

@@ -87,7 +87,7 @@ export default function Cardview(){
   <Card.ImgOverlay>
   <Card.Body>
   <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>
-  <p id='horizontalcarduser'>@lanamara</p>
+  <p id='verticalcarduser'>@lanamara</p>
     <div className="card text-white" id='horizontalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
   </Card.Body>
   </Card.ImgOverlay>

@@ -1,14 +1,14 @@
-import logo from "./logo.png"
+import logo from "./images/logo.png"
 import Card from 'react-bootstrap/Card'
 import {Row,Col,Container} from "react-bootstrap"
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch,faComment } from '@fortawesome/free-solid-svg-icons'
 import { faHome,faCog,faEllipsisV } from '@fortawesome/free-solid-svg-icons'
-import bulb from './lamp.png'
-import medal from './medal.png'
-import battery from './battery.png'
-import young from './young.png'
+import bulb from './images/lamp.png'
+import medal from './images/medal.png'
+import battery from './images/battery.png'
+import young from './images/young.png'
 export default function SideBar(){
     return(
         <Container>

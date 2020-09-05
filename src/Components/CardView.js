@@ -5,9 +5,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Circle from "./Circle"
-import pic from "./girl.png"
+import pic from "./images/girl.png"
 import 'semantic-ui-css/semantic.min.css'
-import add from "./plus-icon-21722.png"
+import add from "./images/plus-icon-21722.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
 export default function Cardview(){
@@ -19,7 +19,7 @@ export default function Cardview(){
           <Col sm={3}>
           <Row>
           <Card id='cardstyle'>
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
     <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina</p>
@@ -50,7 +50,7 @@ export default function Cardview(){
 </Col>
 <Col sm={3}><Row>
 <Card id='cardstyle'>
-  <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
     <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina</p>
@@ -83,7 +83,7 @@ export default function Cardview(){
 <Col sm={5}>
 <Row >
         <Card id='horizontalcard' >
-  <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
   <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>
@@ -96,7 +96,7 @@ export default function Cardview(){
 <Row id='smallcardrow'>
 <Col id='aligned' sm={5}>
 <Card id='smallcard'>
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
   <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana</p>
@@ -108,7 +108,7 @@ export default function Cardview(){
 </Card></Col>
 <Col id='aligned' sm={5}>
 <Card id='smallcard'>
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
   <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana</p>
@@ -124,7 +124,7 @@ export default function Cardview(){
   
 <Row>
 <Card id='footercard'>
-  <Card.Img variant="top" src={require("./4268005.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./images/4268005.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
     <Card.Title id='cardtext'>50 days Premium!</Card.Title>

@@ -104,7 +104,7 @@
     margin-left: 8px;
   }
   #search{
-    margin-left: 50px;
+    margin-left: 30px;
   }
   /*Vertical Tabs*/
 .mdl-tabs__panel {
@@ -166,6 +166,8 @@
 #searchbutton{
   background-color: #e55f3d;
   border-radius: 10px;
+  margin-left: 40px;
+  border: none;
 }
 #marginsearch{
   margin-top: 10%;
@@ -176,7 +178,8 @@
   margin-top: 10%;
 }
 #searchwidth{
-  width: 150%;
+  width: 160%;
+  border: none;
 }
 #searchtext{
   text-align: left;
@@ -185,7 +188,7 @@
 }
 #storytext{
   text-align: left;
-  margin-top: 5%;
+  margin-top: 5.2%;
   margin-left:2% ;
 }
 #cardtext{
@@ -215,15 +218,22 @@
 background-color: #0a3e66;
 opacity: 90%;
 border-radius: 5px;
-margin-top:10% ;
+margin-top:70% ;
 }
 #smallcarduser{
   color: white;
   text-align: left;
-  margin-top: -10%;
-  margin-left: 12%;
+  margin-top: -20%;
+  margin-left: 26%;
   }
 #smallcardtime{
+  background-color: #e55f3d;
+  border-radius: 5px;
+  max-width: 45%;
+  float: left;
+  margin-top:-7%;
+}
+#horizontalcardtime{
   background-color: #e55f3d;
   border-radius: 5px;
   max-width: 45%;
@@ -264,8 +274,8 @@ margin-top:7% ;
 #usercardtext{
   color: gray;
   text-align: left;
-  margin-top: -10%;
-  margin-left: 20%;
+  margin-top: -20%;
+  margin-left: 36%;
 }
 #usercardname{
   color:darkslategray;
@@ -275,7 +285,8 @@ margin-top:7% ;
   background-color: #e2e2e2;
   border-radius: 10px;
   margin-top: 5%;
-  width: 85%;
+  width: 90%;
+  border:none
 }
 #verticalcardtext{
   background-color: #0a3e66;
@@ -288,3 +299,133 @@ margin-top:7% ;
   border-radius: 5px;
   max-width: 45%;
 }
+#smallcardrow{
+  margin-top: 5%;
+}
+#threedot{
+  margin-top: 5%;
+  margin-left: 80%;
+  float: right;
+}
+#smallcardheading{
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+#verticalcardheading{
+  text-align: left;
+  margin-left: 2%;
+}
+#containerstyle{
+  max-width: 100%;
+  width: 100%;
+  margin-top: 1%;
+}
+#maxwide{
+  max-width: 100%;
+}
+#storydot{
+  float: right;
+  margin-right: 34rem;
+}
+#searchdot{
+  float: right;
+  margin-right: 2rem;
+}
+#carddot{
+  float: right;
+  margin-right: 0rem;
+}
+#imageSizes{
+  border-radius: 20px;
+  margin-top:11% ;
+}
+#footertext{
+  float: right;
+  margin-right: 1rem;
+}
+#sidebarcardname{
+margin-left: -10%;
+font-size: 0.8rem;
+}
+#imageSizesidebar{
+  border-radius: 10px;
+}
+#sidebarusercard{
+  width: 100%;
+  height: 80%;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+}
+#sidebartext{
+  color: gray;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 27%;
+}
+#sidebarsmallcard{
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: -30%;
+  padding: 0.2rem !important;
+  border: none;
+}
+#sidebarpad{
+  padding: 0.5rem !important;
+}
+#sidebarsmallcardname{
+  margin-left: -10%;
+  font-size: 0.8rem;
+  margin-top: 60%;
+  }
+  
+#sidebarsmallcardtext{
+  font-size: 0.9rem;
+  margin-top: -30%;
+  }
+  #smallcardsidebarrow{
+    margin-top: 40%;
+    width: 134%;
+  }
+  #cardstyle{
+    width: 14rem;
+    height: 24rem;
+    overflow: hidden;
+    border-radius: 5%;
+    border: none;
+  }
+  #profilecard{
+    width: 100%;
+  height: 40%;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 1px;
+  border: none;
+  margin-top: 10%;
+
+  }
+  #profiletext{
+    color: gray;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 27%;
+  }
+  #profilecardinside{
+    margin-left: -10%;
+    margin-top: 2%;
+font-size: 0.8rem;
+  }
+  #profiledot{
+    margin-top: 10%;
+    margin-left: 18%;
+  }
+  #con{
+    margin-left: 19%;
+  }
+  #offerdot{
+    float: right;
+  margin-right: 4.4rem;
+  }

@@ -1,17 +1,12 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Nav from 'react-bootstrap/Nav';
-import Footer from "./Footer"
-import Dropdown from 'react-bootstrap/Dropdown';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Icon } from 'semantic-ui-react'
 import Circle from "./Circle"
 import pic from "./girl.png"
+import 'semantic-ui-css/semantic.min.css'
 import add from "./plus-icon-21722.png"
-import { Sidenav } from 'rsuite';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
 export default function Cardview(){
@@ -26,7 +21,7 @@ export default function Cardview(){
   <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+    <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina</p>
   <p id='horizontalcarduser'>@lanamara</p>
     <div className="card text-white" id='verticalcardtime'>82 min</div> 
     <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
@@ -38,16 +33,16 @@ export default function Cardview(){
 <Row>
 <Card id='usercard'>
     <Card.Body><Row><Col>
-    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana </p>
+    <p id='usercardname'><img alt="" src={pic} height="20"/>{"   "}Lana </p>
   <p id='usercardtext'>@lana</p></Col><Col >
-  <img src={add} id='imageSizes' height="30"/></Col></Row>
+  <img alt="" src={add} id='imageSizes' height="30"/></Col></Row>
     </Card.Body>
   </Card>
   <Card id='usercard'>
     <Card.Body><Row><Col>
-    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana </p>
+    <p id='usercardname'><img alt="" src={pic} height="20"/>{"   "}Lana </p>
   <p id='usercardtext'>@lana</p></Col><Col >
-  <img src={add} id='imageSizes' height="30"/></Col></Row>
+  <img alt="" src={add} id='imageSizes' height="30"/></Col></Row>
     </Card.Body>
   </Card>
   </Row>
@@ -57,7 +52,7 @@ export default function Cardview(){
   <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina</p>
+    <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina</p>
   <p id='horizontalcarduser'>@lanamara</p>
     <div className="card text-white" id='verticalcardtime'>82 min</div> 
     <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
@@ -70,16 +65,16 @@ export default function Cardview(){
 <Row>
 <Card id='usercard'>
     <Card.Body><Row><Col>
-    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana </p>
+    <p id='usercardname'><img alt="" src={pic} height="20"/>{"   "}Lana </p>
   <p id='usercardtext'>@lana</p></Col><Col >
-  <img src={add} id='imageSizes' height="30"/></Col></Row>
+  <img alt="" src={add} id='imageSizes' height="30"/></Col></Row>
     </Card.Body>
   </Card>
   <Card id='usercard'>
     <Card.Body><Row><Col>
-    <p id='usercardname'><img src={pic} height="20"/>{"   "}Lana </p>
+    <p id='usercardname'><img alt="" src={pic} height="20"/>{"   "}Lana </p>
   <p id='usercardtext'>@lana</p></Col><Col >
-  <img src={add} id='imageSizes' height="30"/></Col></Row>
+  <img alt="" src={add} id='imageSizes' height="30"/></Col></Row>
     </Card.Body>
   </Card>
   </Row>
@@ -90,7 +85,7 @@ export default function Cardview(){
   <Card.Img variant="top" src={require("./11.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>
+  <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>
   <p id='horizontalcarduser'>@lanamara</p>
     <div className="card text-white" id='horizontalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
   </Card.Body>
@@ -103,7 +98,7 @@ export default function Cardview(){
   <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
-  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana</p>
+  <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana</p>
   <p id='smallcarduser'>@lanamara</p>
   <span className="card text-white" id='smallcardtime'>82 min</span> 
     <div className="card text-white" id='smallcardtext' >Learning how to create.</div>  
@@ -115,7 +110,7 @@ export default function Cardview(){
   <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
   <Card.ImgOverlay id="paddingNone">
   <Card.Body>
-  <p id='smallcardusername'><img src={pic} height="20"/>{"   "}Lana</p>
+  <p id='smallcardusername'><img alt="" src={pic} height="20"/>{"   "}Lana</p>
   <p id='smallcarduser'>@lanamara</p>
   <span className="card text-white" id='smallcardtime'>82 min</span> 
     <div className="card text-white" id='smallcardtext' >Learning how to create.</div>  

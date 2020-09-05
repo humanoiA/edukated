@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Col, Row, Form, Button } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
+import img1 from './images/alex-suprun-ZHvM3XIOHoE-unsplash.jpg';
+import img2 from './images/foto-sushi-6anudmpILw4-unsplash.jpg';
+import img3 from './images/julian-wan-2EdIX-O2lkI-unsplash.jpg';
 export default function Circle() {
   return (
     <>
@@ -10,7 +13,7 @@ export default function Circle() {
         <Row>
           <Col sm={1.1}>
             <div class="circle">
-              <img src="https://en.gravatar.com/userimage/8283692/4c9d9ec1cd3fd02acb5ac9572e3583da?size=200" alt="" />
+              <img src={img1} alt="" />
               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="50" cy="50" r="30" />
               </svg>
@@ -18,7 +21,7 @@ export default function Circle() {
           </Col>
           <Col sm={1.1}>
             <div class="circle">
-              <img src="https://en.gravatar.com/userimage/8283692/4c9d9ec1cd3fd02acb5ac9572e3583da?size=200" alt="" />
+              <img src={img2} alt="" />
               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="50" cy="50" r="30" />
               </svg>
@@ -26,7 +29,7 @@ export default function Circle() {
           </Col>
           <Col sm={1.1}>
             <div class="circle">
-              <img src="https://en.gravatar.com/userimage/8283692/4c9d9ec1cd3fd02acb5ac9572e3583da?size=200" alt="" />
+              <img src={img3} alt="" />
               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="50" cy="50" r="30" />
               </svg>

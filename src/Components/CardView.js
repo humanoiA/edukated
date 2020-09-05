@@ -25,7 +25,7 @@ export default function Cardview() {
                   <p id='smallcardusername'><img alt="" src={pic} height="20" />{"   "}Lana Marandina</p>
                   <p id='horizontalcarduser'>@lanamara</p>
                   <div className="card text-white" id='verticalcardtime'>82 min</div>
-                  <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+                  <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes</div>
                 </Card.Body>
               </Card.ImgOverlay>
             </Card>
@@ -50,13 +50,13 @@ export default function Cardview() {
         </Col>
         <Col sm={3}><Row>
           <Card id='cardstyle'>
-            <Card.Img variant="top" src={require("./images/juniperphoton-6KvcUtuk9WE-unsplash.jpg")} id='cardimage' />
+            <Card.Img variant="top" src={require("./images/T_23-01.jpg")} id='cardimage' />
             <Card.ImgOverlay>
               <Card.Body>
                 <p id='smallcardusername'><img alt="" src={pic} height="20" />{"   "}Lana Marandina</p>
                 <p id='horizontalcarduser'>@lanamara</p>
                 <div className="card text-white" id='verticalcardtime'>82 min</div>
-                <div className="card text-white" id='verticalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+                <div className="card text-white" id='verticalcardtext2'>Learning how to create Beautiful Scenes </div>
               </Card.Body>
             </Card.ImgOverlay>
           </Card>
@@ -83,12 +83,12 @@ export default function Cardview() {
         <Col sm={5} id='rightcard'>
           <Row >
             <Card id='horizontalcard' >
-              <Card.Img variant="top" src={require("./images/juniperphoton-6KvcUtuk9WE-unsplash.jpg")} id='cardimage' />
+              <Card.Img variant="top" src={require("./images/001-understand-yourself-large-opt.png")} id='cardimage' />
               <Card.ImgOverlay>
                 <Card.Body>
                   <p id='smallcardusername'><img alt="" src={pic} height="20" />{"   "}Lana Marandina<span className="card text-white" id='horizontalcardtime'>82 min</span> </p>
                   <p id='verticalcarduser'>@lanamara</p>
-                  <div className="card text-white" id='horizontalcardtext'>Learning how to create Beautiful Scenes in Illustrator in 60 minutes</div>
+                  <div className="card text-white" id='horizontalcardtext'>Learning how to create  </div>
                 </Card.Body>
               </Card.ImgOverlay>
             </Card>

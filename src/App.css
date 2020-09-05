@@ -104,9 +104,8 @@
     margin-left: 8px;
   }
   #search{
-    margin-left: 30px;
     margin-top: -0.4%;
-    padding-left: 30px;
+    margin-left: 6%;
   }
   /*Vertical Tabs*/
 .mdl-tabs__panel {
@@ -259,10 +258,10 @@ border-radius: 5%;
 font-size: 0.7em;
 }
 #horizontalcardtext{
-  background-color: #0a3e66;
+  background-color: #e7944c;
 opacity: 90%;
 border-radius: 5px;
-margin-top:7% ;
+margin-top:24% ;
 }
 #horizontalcarduser{
   color: white;
@@ -304,6 +303,12 @@ margin-top:7% ;
 }
 #verticalcardtext{
   background-color: #0a3e66;
+  opacity: 90%;
+  border-radius: 5px;
+  margin-top: 90%;
+}
+#verticalcardtext2{
+  background-color: #ff8b79;
   opacity: 90%;
   border-radius: 5px;
   margin-top: 90%;

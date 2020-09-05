@@ -194,7 +194,8 @@
   margin-bottom: 0%;
 }
 #cardtext{
-  color: white;
+  color: #ED462F;
+  text-align: left;
 }
 #cardimage{
   display: block;
@@ -210,6 +211,7 @@
   overflow: hidden;
   border-radius: 5%;
   margin-top: 3%;
+  border: none;
 }
 #footercardtext{
   text-align: left;
@@ -233,6 +235,7 @@ margin-top:70% ;
   border-radius: 5px;
   max-width: 45%;
   float: left;
+  padding: 2px;
   margin-top:-7%;
 }
 #horizontalcardtime{
@@ -240,6 +243,8 @@ margin-top:70% ;
   border-radius: 5px;
   max-width: 45%;
   float: right;
+  padding: 2px;
+  font-size: 0.7em;
 }
 #smallcardusername{
   color: white;
@@ -430,4 +435,14 @@ font-size: 0.8rem;
   #offerdot{
     float: right;
   margin-right: 4.4rem;
+  }
+  #offertext{
+    color: #10928e;
+    text-align: left;
+  }
+  #offerbutton{
+    color: #ED462F;
+    background-color: white;
+    border: none;
+    margin-left: -56%;
   }

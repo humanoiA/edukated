@@ -1,5 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -123,14 +124,14 @@ export default function Cardview(){
   
 <Row>
 <Card id='footercard'>
-  <Card.Img variant="top" src={require("./72.jpg")} id='cardimage'/>
+  <Card.Img variant="top" src={require("./4268005.jpg")} id='cardimage'/>
   <Card.ImgOverlay>
   <Card.Body>
-    <Card.Title id='cardtext'>Card Title</Card.Title>
-    <Card.Text id='cardtext'>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    <Card.Title id='cardtext'>50 days Premium!</Card.Title>
+    <Card.Text id='offertext'>
+      Get it before 01.01.2020
     </Card.Text>
+    <Button id='offerbutton'>Know More</Button>
   </Card.Body>
   </Card.ImgOverlay>
 </Card>
